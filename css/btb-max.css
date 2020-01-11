@@ -1,0 +1,65 @@
+.logo{
+	position:absolute;
+	left:50%;
+	top:50%;
+	height:1px;
+	width:1px;
+}
+.contain{
+	position:relative;
+}
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12{
+	position:absolute;
+	-moz-transform:scale(0.5) translate(-100%, -100%);
+    -webkit-transform:scale(0.5) translate(-100%, -100%);
+    transform:scale(0.5) translate(-100%, -100%);
+
+}
+
+.p1 {
+	position:absolute;
+
+}
+.p2{
+	position:absolute;
+
+}
+.p3{
+	position:absolute;
+
+}
+.p4{
+position:absolute;
+
+}
+.p5{
+position:absolute;
+
+}
+.p6{
+position:absolute;
+
+}
+.p7{
+position:absolute;
+
+}
+.p8{
+position:absolute;
+
+}
+.p9{
+position:absolute;
+
+}
+.p10{
+position:absolute;
+
+}
+.p11{
+	position:absolute;
+
+}
+.p12{
+
+}
