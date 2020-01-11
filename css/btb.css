@@ -240,6 +240,10 @@ p, h1, h2{
     box-shadow:28px -28px 20px black;
    }
 
+.contact ul {
+   	padding-left: 0;
+}
+
 .contact h1, li, a{
 	text-align: center;
     color:#b87333;
@@ -486,7 +490,7 @@ img {
 	position: absolute;
     font-size: 60px;
     top: 0;
-    height: 276px;
+    height: 100%;
     color: #b87333;
     text-shadow: 2px 2px 2px black;
 }
@@ -573,8 +577,13 @@ img {
 		font-size:20px;
 	}
 
+	.merch.modal, .kickstart.modal, .about.modal, .contact.modal {
+		top: -165px;
+	}
+
 	.modal p{
-		font-size:17px;
+		font-size: 18px;
+		line-height: 23px;
 	}
 
 	.about, .contact{
@@ -602,6 +611,14 @@ img {
 	.merch i, .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
 		font-size:35px;
 	}	
+
+	.merch > a {
+		display: none;
+	}
+
+	.merch p a {
+		text-decoration: underline;
+	}
 
 	.fa-envelope-o{
 		font-size:20px;
@@ -701,6 +718,10 @@ img {
 
 	.modal p{
 		font-size:16px;
+	}
+
+	.contact ul li {
+		padding-bottom: 0;
 	}
 
 	.about, .contact{
